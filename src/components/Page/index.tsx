@@ -1,6 +1,6 @@
-import React from "react";
-import { type PageProps } from "./types";
-import { Container } from "./styled";
+import React from 'react'
+import { type PageProps } from './types'
+import { Container } from './styled'
 
 const Page: React.FC<PageProps> = ({ title, children }) => {
   return (
@@ -8,7 +8,7 @@ const Page: React.FC<PageProps> = ({ title, children }) => {
       <h1>{title}</h1>
       <>{children}</>
     </Container>
-  );
-};
+  )
+}
 
-export default Page;
+export default Page

@@ -1,5 +1,16 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
     /* Language and Environment */
     "target": "esnext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "jsx": "react-jsx" /* Specify what JSX code is generated. */,
@@ -35,5 +46,17 @@
 
     /* Completeness */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
-  }
+  },
+  "include": [
+    "src",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts", 
+    "tailwind.config.js", 
+    "postcss.config.js"  
+  ],
+  "exclude": [
+    "node_modules"
+  ],
 }

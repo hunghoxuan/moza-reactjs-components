@@ -10,3 +10,16 @@ export * from "./tabs";
 export * from "./select";
 export * from "./separator";
 export * from "./use-toast";
+export * from "./tooltip";
+export * from "./collapsible";
+export * from "./label"
+export * from "./popover"
+export * from "./radio-group"
+export * from "./textarea"
+export * from "./toast"
+export * from "./toaster"
+export * from "./calendar"
+export * from "./checkbox"
+export * from "./command"
+export * from "./dialog"
+
